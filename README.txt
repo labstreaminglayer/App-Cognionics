@@ -1,4 +1,16 @@
-== Usage ==
+# Overview
+
+The current version of the Cognionics Data Acquisition Software contains a built-in outlet for LSL. Once you have successfully connected to your EEG system, simply hit the 'Start LabStreamingLayer' button to begin data output. You may see a Windows Firewall warning and need to enable network access.
+
+The Cognionics data stream should be immediately accessible on the local machine and across the network.
+
+The current version uses a float32 data type which is well supported. Channel order is identical to the that presented by the Data Acquisition Software including the accelerometer, auxiliary box, packet counter and trigger. EEG data is scaled to micro Volts. 
+
+Please contact Cognionics at info@cognionics.com if you experience issues connecting a Cognionics headset to LSL.
+
+== Deprecated Usage ==
+
+This program should no longer be necessary (see above).
 
 To use this program, you first need to have your Cognionics EEG system paired to your computer via Bluetooth. The pairing code for the device is 0000. 
 
